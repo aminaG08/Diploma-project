@@ -1,0 +1,129 @@
+.about {
+    &__container {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        box-sizing: border-box;
+        display: flex;
+        padding: 72px 10px 50px 10px;
+        justify-content: space-between;
+    }
+
+    &__left {
+        height: fit-content;
+        height: fit-content;
+    }
+
+    &__title {
+        font-family: "Arial-Greek";
+        font-weight: 800;
+        font-size: 72px;
+        padding-bottom: 5px;
+    }
+
+    &__slogan {
+        font-family: 'Noto Sans JP';
+        letter-spacing: 1px;
+        padding-left: 3px;
+        padding-bottom: 20px;
+    }
+
+    &__subtitle {
+        font-family: "Arial-Greek";
+        font-weight: 400;
+        font-size: 17px;
+        width: 550px;
+        line-height: 120%;
+    }
+
+    &__btn {
+        text-decoration: none;
+        border: solid 1px #000;
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+        margin-top: 20px;
+        font-family: 'Noto Sans JP';
+        font-weight: 500;
+        color: #fff;
+        background-color: #000;
+
+        &-wrapper {
+            height: max-content;
+            padding-top: 40px;
+        }
+    }
+
+    &__right {
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        height: fit-content;
+        justify-content: center;
+        border-radius: 20px;
+
+        &-wrapper {
+            display: flex;
+            align-items: center;
+            font-family: 'Noto Sans JP';
+            letter-spacing: 1px;
+            padding-left: 3px;
+            font-size: 16px;  
+        }
+
+        &-who {
+            cursor: pointer;
+            color: #000;
+            justify-content: end;
+            display: flex;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .about {
+        &__container {
+            flex-direction: column;
+        }
+
+        &__btn {
+            &-wrapper {
+                height: 115px;
+            }
+        }
+
+        &__left {
+            margin: auto;
+        }
+        
+        &__right {
+            width: fit-content;
+            margin: auto;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        &__title {
+            font-size: 36px;
+        }
+
+        &__slogan {
+            width: fit-content;
+        }
+
+        &__subtitle {
+            width: 350px;
+        }
+
+        &__right {
+            width: 350px;
+            padding: 10px;
+            
+            &-wrapper {
+                max-width: 350px;
+            }
+        }
+    }
+}

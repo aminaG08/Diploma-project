@@ -1,0 +1,62 @@
+.steps {
+    &__container {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    &__title {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-family: "Arial-Greek";
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    &__button {
+        background: none;
+	    color: inherit;
+	    border: none;
+	    padding: 0;
+	    font: inherit;
+	    cursor: pointer;
+	    outline: inherit;
+        padding: 20px;
+        margin: auto;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+        font-family: "Arial-Greek";
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        text-transform: lowercase;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__wrapper {
+        text-align: center;
+    }
+
+    &__challenge {
+        font-family: "Arial-Greek";
+        font-weight: 400;
+        font-size: 19px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .steps {
+        &__title {
+            width: 350px;
+            text-align: center;
+            font-size: 36px;
+        }
+    }
+}

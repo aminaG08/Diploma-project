@@ -1,0 +1,72 @@
+.therapy {
+    &__container {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 50px;
+    }
+
+    &__title {
+        text-align: center;
+        width: fit-content;
+    }
+
+    &__btn {
+        display: flex;
+        width: fit-content;
+        margin: auto;
+        color: #fff;
+        background-color: #000;
+        cursor: pointer;
+    }
+
+    &__blocks {
+        display: flex;
+        gap: 20px;
+        margin: auto;    
+        padding-bottom: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 10px;
+        width: 300px;
+        border: solid 1px #000;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #fff;
+
+        &-title {
+            font-family: "Arial-Greek";
+            font-size: 25px;
+            text-align: center;  
+            height: 58px; 
+            
+            &-small {
+                font-family: "Arial-Greek";
+                font-size: 18px;
+            }
+        }
+
+        &-subtitle {
+            font-family: "Arial-Greek";
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .therapy {
+        &__title {
+            max-width: 350px;
+        }
+    }
+}
