@@ -74,7 +74,7 @@ funkcja toggleMenu - zmienia stan na przeciwny co pozwala użytkownikowi otwiera
 ```
 <div className={`header__wrapper ${isMenuOpen ? 'header__wrapper--open' : ''}`}>
 ```
-## wykorzystana jest arrow function js dla dynamicznego dodawania klasy CSS. Gdy isMenuOpen jest true, dodawana jest klasa header__wrapper--open, która pokazuje menu.
+### wykorzystana jest arrow function js dla dynamicznego dodawania klasy CSS. Gdy isMenuOpen jest true, dodawana jest klasa header__wrapper--open, która pokazuje menu.
 ---
 Stories:
   Ten komponent dynamicznie pobiera posty z Reddita na temat sukcesów związanych z lękiem społecznym. Jest to element motywacyjny, który pozwala zobaczyć historię sukcesu innych osób.
@@ -104,9 +104,9 @@ useEffect(() => {
   fetchData();
 }, []);
   ```
-1.useEffect działa tylko jeden raz po zamontowaniu komponentu i pobiera posty.
-2.Dane są pobierane z subreddita r/socialanxiety z frazą "success".
-3.Posty są filtrowane do obiektów {title, subtitle, url} i zapisywane w stanie posts.
+### 1.useEffect działa tylko jeden raz po zamontowaniu komponentu i pobiera posty.
+### 2.Dane są pobierane z subreddita r/socialanxiety z frazą "success".
+### 3.Posty są filtrowane do obiektów {title, subtitle, url} i zapisywane w stanie posts.
 -
 Obsługa blędów jeśli ładowanie się nie powiodło:
   1.widzi użytkownik jeśli dane jeszcze się ładują
