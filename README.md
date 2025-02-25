@@ -74,7 +74,7 @@ funkcja toggleMenu - zmienia stan na przeciwny co pozwala użytkownikowi otwiera
 ```
 <div className={`header__wrapper ${isMenuOpen ? 'header__wrapper--open' : ''}`}>
 ```
-wykorzystana jest arrow function js dla dynamicznego dodawania klasy CSS. Gdy isMenuOpen jest true, dodawana jest klasa header__wrapper--open, która pokazuje menu.
+## wykorzystana jest arrow function js dla dynamicznego dodawania klasy CSS. Gdy isMenuOpen jest true, dodawana jest klasa header__wrapper--open, która pokazuje menu.
 ---
 Stories:
   Ten komponent dynamicznie pobiera posty z Reddita na temat sukcesów związanych z lękiem społecznym. Jest to element motywacyjny, który pozwala zobaczyć historię sukcesu innych osób.
