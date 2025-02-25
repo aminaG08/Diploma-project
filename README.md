@@ -51,7 +51,7 @@ Aplikacja jest częścią badania dotyczącego efektywności terapii CBT w formi
 │   │   ├── _statistics.scss  
 │   │   ├── _steps.scss  
 │   │   ├── _stories.scss  
-│   │   ├── therapy.scss  
+│   │   ├── _therapy.scss  
 ├── package.json        # Zależności i skrypty npm  
 ├── README.md           # Dokumentacja projektu  
 
