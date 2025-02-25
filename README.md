@@ -16,7 +16,7 @@ Aplikacja jest częścią badania dotyczącego efektywności terapii CBT w formi
   1.Ćwiczenia tekstowe CBT - zestaw ćwiczeń opartych na terapii poznawczo-behawioralnej,       
     pomagających użytkownikom stopniowo redukować lęk społeczny.
   2.Recomendację - zebrane recomendację popartę badaniami naukowymi dla lepszego efektu.
-  3.Przyjazny UX/UI - minimalistyczny design, który nie przytłacza użytkownika i ułatwia            nawigację. 
+  3.Przyjazny UX/UI - minimalistyczny design, który nie przytłacza użytkownika i ułatwia nawigację. 
 
   ## Technologię użyte w projekcie:
   Html - struktura strony;
